@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>bootstrap 5</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/bootstrap5.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,400;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Start Navbar -->
+  <nav class="navbar navbar-expand-lg sticky-top"> 
+    <div class="container">
+      <a class="navbar-brand" href="#">Kerolos</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main" aria-controls="main" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <div class="navbar-collapse collapse" id="main">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link p-lg-3 active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link p-lg-3" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link p-lg-3" href="#">Portofolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link p-lg-3" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link p-lg-3" href="#">Contact</a>
+          </li>   
+        </ul>
+        <div class="search ps-2 pe-2">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <a class="main-btn btn rounded-pill ps-4 pe-4 ms-3" href="#">Login</a>
+      </div>
+    </div>
+  </nav>
+  <!-- End Navbar -->
+  <!-- Start Landing -->
+  <div class="landing d-flex justify-content-center align-items-center">
+    <div class="text-center text-light">
+      <h1 class="mb-3">Test The h1 style</h1>
+      <p class="mb-5 text-white-50">Lorem ipsum dolor sit amet consectetur</p>
+      <div class="main-btn btn rounded-pill ps-5 pe-5 pt-2 pb-2">Get Start</div>
+    </div>
+  </div>
+  <!-- End Landing -->
+  <!-- Start Features -->
+  <div class="features text-center pt-5 pb-5">
+    <div class="container">
+      <div class="main-title mt-5 mb-5 position-relative">
+        <img class="mb-4" src="imgs/title.png" alt="main">
+        <h2>We Are Good</h2>
+        <p class="text-black-50 text-uppercase">Some Of Thease Stuff Under</p>
+      </div>
+      <div class="row">
+        <div class="col-md-6 col-lg-4">
+          <div class="feat">
+            <div class="icon-holder position-relative">
+              <i class="fa-solid fa-1 position-absolute bottom-0 number"></i>
+              <i class="fa-solid fa-pencil fa-4x position-absolute bottom-0 icon"></i>
+            </div>
+            <h4 class="mb-4 mt-3 text-uppercase">Graphic Design</h4>
+            <p class="text-black-50 lh-lg"> ipsum dolor sit amet consectetur adipisicing elit. Atque alias nihil quae impedit.  quisquam eligendi quos inventore perferendis !</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="feat">
+            <div class="icon-holder position-relative">
+              <i class="fa-solid fa-2 position-absolute bottom-0 number"></i>
+              <i class="fa-solid fa-tv fa-4x position-absolute bottom-0 icon"></i>
+            </div>
+            <h4 class="mb-4 mt-3 text-uppercase">Graphic Design</h4>
+            <p class="text-black-50 lh-lg"> ipsum dolor sit amet consectetur adipisicing elit. Atque alias nihil quae impedit.  quisquam eligendi quos inventore perferendis !</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="feat">
+            <div class="icon-holder position-relative">
+              <i class="fa-solid fa-3 position-absolute bottom-0 number"></i>
+              <i class="fa-solid fa-plug fa-4x position-absolute bottom-0 icon"></i>
+            </div>
+            <h4 class="mb-4 mt-3 text-uppercase">Graphic Design</h4>
+            <p class="text-black-50 lh-lg"> ipsum dolor sit amet consectetur adipisicing elit. Atque alias nihil quae impedit.  quisquam eligendi quos inventore perferendis !</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Features -->
+  <!-- Start Our works -->
+  <div class="our-work text-center">
+    <div class="container">
+      <div class="main-title mt-5 mb-5 position-relative">
+        <img class="mb-4" src="imgs/title.png" alt="main">
+        <h2>We Make This</h2>
+        <p class="text-black-50 text-uppercase">Some Of Thease Stuff Under</p>
+      </div>
+      <ul class="list-unstyled d-flex justify-content-center mt-5 mb-5">
+        <li class="active rounded-pill">All</li>
+        <li>Design</li>
+        <li>Code</li>
+        <li>Photo</li>
+        <li>App</li>
+      </ul>
+      <div class="row">
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="box mb-3 bf-white" data-work="Application">
+            <img src="imgs/work-01.jpg" alt="" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="box mb-3 bf-white" data-work="Application">
+            <img src="imgs/work-02.jpg" alt="" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="box mb-3 bf-white" data-work="Application">
+            <img src="imgs/work-03.jpg" alt="" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="box mb-3 bf-white" data-work="Application">
+            <img src="imgs/work-04.jpg" alt="" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="box mb-3 bf-white" data-work="Application">
+            <img src="imgs/work-05.jpg" alt="" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="box mb-3 bf-white" data-work="Application">
+            <img src="imgs/work-06.jpg" alt="" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="box mb-3 bf-white" data-work="Application">
+            <img src="imgs/work-07.jpg" alt="" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="box mb-3 bf-white" data-work="Application">
+            <img src="imgs/work-08.jpg" alt="" class="img-fluid">
+          </div>
+        </div>
+        
+      </div>
+      <div class="d-flex justify-content-center mt-5">
+        <div class="main-btn btn rounded-pill ps-5 pe-5 pt-2 pb-2">I Want More</div>
+      </div>
+    </div>
+  </div>
+  <!-- End Our works -->
+  <!-- Start Stuff -->
+  <div class="stuff pt-5">
+    <div class="container">
+      <div class="main-title text-center mt-5 mb-5 position-relative">
+        <img class="mb-4" src="imgs/title.png" alt="main">
+        <h2>Some Stuff About Us</h2>
+        <p class="text-black-50 text-uppercase">The Great Team</p>
+      </div>
+      <p class="descr text-center mb-5 text-black-50 m-auto">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti magni, ipsum pariatur fuga eum porro 
+        qui maxime possimus quia? Facere, sit laudantium.Saepe cum deserunt
+      </p> 
+      <div class="row align-items-center">
+        <div class="col-lg-4 mb-4 text-center text-md-start">
+          <div class="text">
+            <h3>Kerolos Design</h3>
+            <p class="text-black-50 fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, amet odit dolores quia ad ipsam molestiae error sit expedita non ipsum tenetur</p>
+            <p class="text-black-50 fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, delectus, illum enim accusamus facilis voluptatum sint consequuntur, error sit expedita non ipsum tenetur pariatur debitis id laborum eaque dolores earum.</p>
+            <div class="d-flex  mt-3">
+              <div class="main-btn btn rounded-pill text-uppercase fw-bold ps-5 pe-5 pt-2 pb-2">Order Me One</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-8">
+          <div class="image">
+            <img class="img-fluid" src="imgs/laptop.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Stuff -->
+  <!-- Start Team-->
+  <div class="team text-center pb-5 pt-5">
+    <div class="container pb-5 pt-5">
+      <h2 class="fw-bold">Meet The Team</h2>
+      <p class="text-black-50 mb-5 ">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt hic fugiat laudantium provident sint iure porro ratione at natus fuga, ullam, voluptate officia ab qui dolorum suscipit magnam architecto delectus.
+      </p>
+      <div class="row">
+        <div class="col-md-6 col-lg-3">
+          <div class="box bg-white">
+            <img class="img-fluid" src="imgs/team-1.png" alt="">
+            <h4 class="p-3 text-light ">Kerolos Kamel</h4>
+            <blockquote class="text-black-50 p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto voluptatem</blockquote>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="box bg-white">
+            <img class="img-fluid" src="imgs/team-2.png" alt="">
+            <h4 class="p-3 text-light ">Kerolos Kamel</h4>
+            <blockquote class="text-black-50 p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto voluptatem</blockquote>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="box bg-white">
+            <img class="img-fluid" src="imgs/team-3.png" alt="">
+            <h4 class="p-3 text-light ">Kerolos Kamel</h4>
+            <blockquote class="text-black-50 p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto voluptatem</blockquote>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="box bg-white">
+            <img class="img-fluid" src="imgs/team-4.png" alt="">
+            <h4 class="p-3 text-light ">Kerolos Kamel</h4>
+            <blockquote class="text-black-50 p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto voluptatem</blockquote>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  <!-- End Team-->
+  <!-- Start Techs-->
+  <div class="techs pt-5 pb-5 text-center">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-sm-6 col-md-4 col-lg-2 mt-3 mb-3">
+          <img class="img-fluid" src="imgs/tech-1.png" alt="">
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-2 mt-3 mb-3">
+          <img class="img-fluid" src="imgs/tech-2.png" alt="">
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-2 mt-3 mb-3">
+          <img class="img-fluid" src="imgs/tech-3.png" alt="">
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-2 mt-3 mb-3">
+          <img class="img-fluid" src="imgs/tech-4.png" alt="">
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-2 mt-3 mb-3">
+          <img class="img-fluid" src="imgs/tech-3.png" alt="">
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-2 mt-3 mb-3">
+          <img class="img-fluid" src="imgs/tech-1.png" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Techs-->
+  <!-- Start Project -->
+  <div class="project text-light text-center pt-5 pb-5">
+    <h3 class="fw-bold">Start your Project Now</h3>
+    <p class="text-white-50 mb-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim rem ullam</p>
+    <div class="d-flex justify-content-center mt-5">
+      <div class="main-btn btn rounded-pill fw-bold text-uppercase ps-3 pe-3 pt-2 pb-2">Start Project</div>
+    </div>
+  </div>
+  <!-- End Project -->
+  <!-- Start Blog -->
+  <div class="blog pt-5 pb-5">
+    <div class="container">
+      <div class="main-title text-center mt-5 mb-5 position-relative">
+        <img class="mb-4" src="imgs/title.png" alt="main">
+        <h2>Read Our Blog</h2>
+        <p class="text-black-50 text-uppercase">Lorem ipsum</p>
+      </div>
+      <div class="row">
+        <div class="col-md-6 col-lg-4">
+          <div class="card">
+            <img src="imgs/blog-1.jpg" class="card-img-top" alt="blog">
+            <div class="card-body">
+              <span class="text-black-50">Jan 17, 2022</span>
+              <h5 class="card-title">Some Awesone Blog Title Here</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="card">
+            <img src="imgs/blog-2.jpg" class="card-img-top" alt="blog">
+            <div class="card-body">
+              <span class="text-black-50">Jan 17, 2022</span>
+              <h5 class="card-title">Some Awesone Blog Title Here</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="card">
+            <img src="imgs/blog-3.jpg" class="card-img-top" alt="blog">
+            <div class="card-body">
+              <span class="text-black-50">Jan 17, 2022</span>
+              <h5 class="card-title">Some Awesone Blog Title Here</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="d-flex justify-content-center mt-5">
+        <div class="main-btn btn rounded-pill fw-bold text-uppercase ps-3 pe-3 pt-2 pb-2">More Stories</div>
+      </div>
+    </div>
+  </div>
+  <!-- End Blog -->
+  <!-- Start Subscribe -->
+  <div class="subscribe pt-5 pb-5 text-center text-md-start">
+    <div class="container">
+      <form class="row align-items-center pt-3 pb-3">
+        <div class="col-md-6 col-lg-3">
+          <p class="fw-bold fs-5 m-auto">Lorem ipsum dolor sit:</p>
+        </div>
+        <div class="col-md-6 col-lg-7 mb-lg-0 mb-5">
+          <input class="w-100 text-light p-2 bg-transparent" type="text" placeholder="Enter Your Email Adress">
+        </div>
+        <div class="col-md-6 col-lg-2">
+          <input class="form-btn btn rounded-pill fw-bold text-uppercase ps-3 pe-3 pt-2 pb-2" type="submit" value="subscribe">
+        </div>
+      </form>
+    </div>
+  </div>
+  <!-- End Subscribe -->
+  <!-- Start Footer -->
+  <div class="footer pt-5 pb-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <h2 class="fw-bold text-light mb-3">Kerolos</h2>
+          <p class="text-white-50 mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae consequuntur ullam provident, alias sunt sequ.</p>
+          <p class="text-white-50">Created By <span class="green fw-bold">Kerolos</span></p>
+          <p class="text-white-50">&copy;2022-<span class="yellow fw-bold">Bondi Inc</span></p>
+        </div>
+        <div class="col-lg-2 col-md-6 ">
+          <h4 class="fw-bold text-light">Links</h4>
+            <ul class="text-light list-unstyled">
+              <li class="text-white-50 pt-1 pb-1">Home</li>
+              <li class="text-white-50 pt-1 pb-1">Our Services</li>
+              <li class="text-white-50 pt-1 pb-1">Portofolio</li>
+              <li class="text-white-50 pt-1 pb-1">Testimonials</li>
+              <li class="text-white-50 pt-1 pb-1">Support</li>
+              <li class="text-white-50 pt-1 pb-1">Team and Condition</li>
+            </ul>
+        </div>
+        <div class="col-lg-2 col-md-6">
+          <h4 class="fw-bold text-light">About Us</h4>
+            <ul class="text-light list-unstyled">
+              <li class="text-white-50 pt-1 pb-1">Sign In</li>
+              <li class="text-white-50 pt-1 pb-1">Register</li>
+              <li class="text-white-50 pt-1 pb-1">About Us</li>
+              <li class="text-white-50 pt-1 pb-1">Blog</li>
+              <li class="text-white-50 pt-1 pb-1">Contact Us</li>
+            </ul>
+        </div>
+        <div class="col-lg-4 col-md-6 Contact">
+          <h4 class="fw-bold text-light">Contact Us</h4>
+          <p class="text-white-50 mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae consequuntur</p>
+          <div class="d-flex justify-content-center mt-5 mb-4">
+            <div class="main-btn btn w-100 rounded-pill fw-bold ps-3 pe-3 pt-2 pb-2">Kerolos@gmail.com</div>
+          </div>
+          <ul class="d-flex mt-5 list-unstyled gap-3">
+            <li>
+              <a href="#" class="d-block text-light">
+                <i class="fa-brands fa-facebook fa-lg facebook rounded-circle p-2"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="d-block text-light">
+                <i class="fa-brands fa-twitter fa-lg twitter rounded-circle p-2"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="d-block text-light">
+                <i class="fa-brands fa-linkedin fa-lg linkedin rounded-circle p-2"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="d-block text-light">
+                <i class="fa-brands fa-youtube fa-lg youtube rounded-circle p-2"></i>
+              </a>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Footer -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/all.min.js"></script> 
+</body>
+</html>
